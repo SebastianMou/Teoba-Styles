@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/home.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+
+
+    <!-- BARRA NAVEGACIÒN -->
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="py-2" href="#" aria-label="Product">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+        <a class="navbar-brand" href="#">TESEJ</a> <!-- NAVBAR -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse show" id="navbarDark">
+          <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home |</a>  <!-- Home -->
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categorías |
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">sebastian estubo here</a></li>
+                <li><a class="dropdown-item" href="#">Hogar y Muebles</a></li>
+                <li><a class="dropdown-item" href="#">Moda</a></li>
+                <li><a class="dropdown-item" href="#">Herramientas</a></li>
+                <li><a class="dropdown-item" href="#">Deportes y Fitness</a></li>               
+              </ul>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ofertas |</a> <!-- Features -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lo Más Vendido |</a> <!-- Features -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Historial</a> <!-- Features -->
+            </li>
+            <li class="nav-item">
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="" aria-label="Search"> <!-- En PLACEHOLDER ESTABA "SEARCH"-->
+            <button class="btn btn-outline-light" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+</div>
+
+<!-- ANUNCIO
+<div class="card text-dark bg-light mb-3">
+    <div class="card-body">
+      <p class="text-center">Envíos gratis para miembros TESEJ<br>
+        Al ser miembro TESEJ, los envíos corren por nuestra cuenta. <br>
+        Regístrate, es fácil y gratis.</p>
+      </div>
+    </div>
+</div>-->
+
+<!-- SLOGAN
+<main>
+    <section class="py-5 text-center container">
+       <div class="row py-lg-5">
+         <div class="col-lg-6 col-md-8 mx-auto">
+           <h1 class="h1 fw-bold">Fácil, rápido y seguro</h1>
+           <p class="lead text-muted">"TESEJ te da la bienvenida al mejor lugar para tus productos. 
+             Llevamos tu negocio a otro nivel"</p>
+             <a class="btn btn-outline-secondary" href="#">Comenzar</a>
+            </div>
+          </div>
+        </section>
+      </p>
+    </div>
+  </div>
+</div>-->
+
+<div id="carouselDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselDark" data-bs-slide-to="0" class="active"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="3.jpg" class="d-block w-100" alt="Slide 1">
+      <div class="carousel-caption d-none d-sm-block">
+        <h1 class="text-white fw-bold">Fácil, rápido y seguro</h1>
+           <p class="text-white fw-bold">"TESEJ te da la bienvenida al mejor lugar para tus productos. 
+             Llevamos tu negocio a otro nivel"</p>
+             <a class="text-white btn btn-outline-secondary" href="#">Comenzar</a>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+
+<!--CARTAS -->
+<main>
+  <div class="container-fluid bg-trasparent my-4 p-3" style="position: relative;">
+    <div class="pb-3 h5">Tendencias</div>
+      <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+          <div class="col">
+              <div class="card h-100 shadow-sm"> <img src="https://www.freepnglogos.com/uploads/notebook-png/download-laptop-notebook-png-image-png-image-pngimg-2.png" class="card-img-top" alt="...">
+                  <div class="label-top shadow-sm">Product Title</div>
+                  <div class="card-body">
+                      <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-success">12354.00€</span> <span class="float-end"><a href="#" class="small text-muted">Reviews</a></span> </div>
+                      <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
+                      <a href="./product.html"><button class="text-center my-4 glow-on-hover" type="button">HOVER ME!</button></a>             
+                      <div class="clearfix mb-1"> <span class="float-start"><i class="far fa-question-circle"></i></span> <span class="float-end"><i class="fas fa-plus"></i></span> </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="col">
+            <div class="card h-100 shadow-sm"> <img src="https://www.freepnglogos.com/uploads/notebook-png/download-laptop-notebook-png-image-png-image-pngimg-2.png" class="card-img-top" alt="...">
+              <div class="label-top shadow-sm">Asus Rog</div>
+              <div class="card-body">
+                <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-success">12354.00€</span> <span class="float-end"><a href="#" class="small text-muted">Reviews</a></span> </div>
+                <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
+                <button class="text-center my-4 glow-on-hover" type="button">HOVER ME!</button>                      
+                <div class="clearfix mb-1"> <span class="float-start"><i class="far fa-question-circle"></i></span> <span class="float-end"><i class="fas fa-plus"></i></span> </div>
+                <div class="clearfix mb-1"> <span class="float-start"><i class="far fa-question-circle"></i></span> <span class="float-end"><i class="fas fa-plus"></i></span> </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm"> <img src="https://www.freepnglogos.com/uploads/notebook-png/download-laptop-notebook-png-image-png-image-pngimg-2.png" class="card-img-top" alt="...">
+              <div class="label-top shadow-sm">Asus Rog</div>
+              <div class="card-body">
+                <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-success">12354.00€</span> <span class="float-end"><a href="#" class="small text-muted">Reviews</a></span> </div>
+                <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
+                <button class="text-center my-4 glow-on-hover" type="button">HOVER ME!</button>                      
+                <div class="clearfix mb-1"> <span class="float-start"><i class="far fa-question-circle"></i></span> <span class="float-end"><i class="fas fa-plus"></i></span> </div>
+                <div class="clearfix mb-1"> <span class="float-start"><i class="far fa-question-circle"></i></span> <span class="float-end"><i class="fas fa-plus"></i></span> </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm"> <img src="https://www.freepnglogos.com/uploads/notebook-png/download-laptop-notebook-png-image-png-image-pngimg-2.png" class="card-img-top" alt="...">
+              <div class="label-top shadow-sm">Asus Rog</div>
+              <div class="card-body">
+                <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-success">12354.00€</span> <span class="float-end"><a href="#" class="small text-muted">Reviews</a></span> </div>
+                <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
+                <button class="text-center my-4 glow-on-hover" type="button">HOVER ME!</button>                      
+                <div class="clearfix mb-1"> <span class="float-start"><i class="far fa-question-circle"></i></span> <span class="float-end"><i class="fas fa-plus"></i></span> </div>
+                <div class="clearfix mb-1"> <span class="float-start"><i class="far fa-question-circle"></i></span> <span class="float-end"><i class="fas fa-plus"></i></span> </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm"> <img src="https://www.freepnglogos.com/uploads/notebook-png/download-laptop-notebook-png-image-png-image-pngimg-2.png" class="card-img-top" alt="...">
+              <div class="label-top shadow-sm">Asus Rog</div>
+              <div class="card-body">
+                <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-success">12354.00€</span> <span class="float-end"><a href="#" class="small text-muted">Reviews</a></span> </div>
+                <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
+                <button class="text-center my-4 glow-on-hover" type="button">HOVER ME!</button>                      
+                <div class="clearfix mb-1"> <span class="float-start"><i class="far fa-question-circle"></i></span> <span class="float-end"><i class="fas fa-plus"></i></span> </div>
+                <div class="clearfix mb-1"> <span class="float-start"><i class="far fa-question-circle"></i></span> <span class="float-end"><i class="fas fa-plus"></i></span> </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm"> <img src="https://www.freepnglogos.com/uploads/notebook-png/download-laptop-notebook-png-image-png-image-pngimg-2.png" class="card-img-top" alt="...">
+              <div class="label-top shadow-sm">Asus Rog</div>
+              <div class="card-body">
+                <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-success">12354.00€</span> <span class="float-end"><a href="#" class="small text-muted">Reviews</a></span> </div>
+                <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
+                <button class="text-center my-4 glow-on-hover" type="button">HOVER ME!</button>                      
+                <div class="clearfix mb-1"> <span class="float-start"><i class="far fa-question-circle"></i></span> <span class="float-end"><i class="fas fa-plus"></i></span> </div>
+                <div class="clearfix mb-1"> <span class="float-start"><i class="far fa-question-circle"></i></span> <span class="float-end"><i class="fas fa-plus"></i></span> </div>
+              </div>
+            </div>
+          </div>
+          <!--<div class="text-center my-4"> <a href="#" class="btn btn-warning">Check offer</a> </div>-->
+
+          <div class="col">
+            <div class="card h-100 shadow-sm"> <img src="https://www.freepnglogos.com/uploads/notebook-png/download-laptop-notebook-png-image-png-image-pngimg-2.png" class="card-img-top" alt="...">
+              <div class="label-top shadow-sm">Asus Rog</div>
+              <div class="card-body">
+                <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-success">12354.00€</span> <span class="float-end"><a href="#" class="small text-muted">Reviews</a></span> </div>
+                <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
+                <button class="text-center my-4 glow-on-hover" type="button">HOVER ME!</button>                      
+                <div class="clearfix mb-1"> <span class="float-start"><i class="far fa-question-circle"></i></span> <span class="float-end"><i class="fas fa-plus"></i></span> </div>
+                <div class="clearfix mb-1"> <span class="float-start"><i class="far fa-question-circle"></i></span> <span class="float-end"><i class="fas fa-plus"></i></span> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+<!-- GRID -->
+
+<div class="b-example-divider"></div>
+<div class="container px-4 py-5" id="icon-grid">
+  <h2 class="pb-2 border-bottom">Icon grid</h2>
+
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
+      <div>
+        <h4 class="fw-bold mb-0">Featured title</h4>
+        <p>Paragraph of text beneath the heading to explain the heading.</p>
+      </div>
+    </div>
+
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
+      <div>
+        <h4 class="fw-bold mb-0">Featured title</h4>
+        <p>Paragraph of text beneath the heading to explain the heading.</p>
+      </div>
+    </div>
+
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
+      <div>
+        <h4 class="fw-bold mb-0">Featured title</h4>
+        <p>Paragraph of text beneath the heading to explain the heading.</p>
+      </div>
+    </div>
+
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
+      <div>
+        <h4 class="fw-bold mb-0">Featured title</h4>
+        <p>Paragraph of text beneath the heading to explain the heading.</p>
+      </div>
+    </div>
+
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"/></svg>
+      <div>
+        <h4 class="fw-bold mb-0">Featured title</h4>
+        <p>Paragraph of text beneath the heading to explain the heading.</p>
+      </div>
+    </div>
+
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"/></svg>
+      <div>
+        <h4 class="fw-bold mb-0">Featured title</h4>
+        <p>Paragraph of text beneath the heading to explain the heading.</p>
+      </div>
+    </div>
+
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"/></svg>
+      <div>
+        <h4 class="fw-bold mb-0">Featured title</h4>
+        <p>Paragraph of text beneath the heading to explain the heading.</p>
+      </div>
+    </div>
+
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"/></svg>
+      <div>
+        <h4 class="fw-bold mb-0">Featured title</h4>
+        <p>Paragraph of text beneath the heading to explain the heading.</p>
+      </div>
+    </div>
+    
+  </div>
+</main>
+
+<!---->
+</div>
+<!---->
+
+
+<!--FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h6>About</h6>
+        <p class="text-justify">TESEJ es la iniciativa mas viable de un negocio convencional
+          que guste pasarse a un entorno online, en el cual tendra su propio espacio
+          para manipularlo a su gusto de una manera en la cual su convivencia con el sitio web
+          sea sencilla.</p>
+      </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+     <a href="#">TESEJ</a>.
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+          <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./js/home.js"></script>
+</body>
+</html>
